@@ -1,10 +1,10 @@
-import { MySecondAppPage } from './app.po';
+import { NewCliPage } from './app.po';
 
-describe('my-second-app App', () => {
-  let page: MySecondAppPage;
+describe('new-cli App', () => {
+  let page: NewCliPage;
 
   beforeEach(() => {
-    page = new MySecondAppPage();
+    page = new NewCliPage();
   });
 
   it('should display message saying app works', () => {

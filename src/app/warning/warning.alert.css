@@ -1,0 +1,12 @@
+.warningalert {
+color: red;
+font-size:16px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+background-color: lightblue;
+margin:5px;
+padding:5px;
+width: 300px;
+height: 40px;
+float: left;
+}
+

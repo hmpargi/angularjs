@@ -4,10 +4,17 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-
+import {ServerComponent} from './server/server.component';
+import {ServersComponent} from './servers/servers.component';
+import {WarningAlert} from './warning/warning.alert';
+import {SuccessAlert} from './success/success.alert';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ServerComponent,
+    ServersComponent,
+    WarningAlert,
+    SuccessAlert
   ],
   imports: [
     BrowserModule,
@@ -16,5 +23,6 @@ import { AppComponent } from './app.component';
   ],
   providers: [],
   bootstrap: [AppComponent]
+  
 })
 export class AppModule { }
